@@ -9,11 +9,18 @@ int main()
     selectionSort(array, size);
     printArray(array, size);
 
+    // Generic Selection sort
+    char genericArray[] = { 'a', 'n', 'b', 'q', 'z' };
+    int genericArraySize = sizeof(genericArray) / sizeof(genericArray[0]);
+
+    genericSelectionSort(genericArray, genericArraySize);
+    printArray(genericArray, genericArraySize);
+
     // Bubble sort
     int array2[] = { 99, 1 ,8, 2, 33, 5, 44};
     int size2 = sizeof(array2) / sizeof(array2[0]);
 
-    selectionSort(array2, size2);
+    bubbleSort(array2, size2);
     printArray(array2, size2);
 
     std::cin.get();
