@@ -10,4 +10,7 @@ void printArray(int array[], int size);
 // Selection sort
 void selectionSort(int array[], int n);
 
-#endif // SOT_HPP
+// Bubble sort
+void bubbleSort(int array[], int n);
+
+#endif // SORT_HPP
