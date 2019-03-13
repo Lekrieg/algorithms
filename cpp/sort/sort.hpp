@@ -3,6 +3,13 @@
 
 #include <iostream>
 
+// Selection sort
+void selectionSort(int array[], int n);
+
+// Bubble sort
+void bubbleSort(int array[], int n);
+
+// -------- Templates --------
 // Auxiliary methods
 template<typename myType>
 void swap(myType *xp, myType *yp)
@@ -22,7 +29,6 @@ void printArray(myType array[], int size)
 }
 
 // Selection sort
-void selectionSort(int array[], int n);
 template<typename myType>
 void genericSelectionSort(myType array[], int n)
 {
@@ -45,8 +51,5 @@ void genericSelectionSort(myType array[], int n)
         }
     }
 }
-
-// Bubble sort
-void bubbleSort(int array[], int n);
 
 #endif // SORT_HPP
