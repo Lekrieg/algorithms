@@ -3,7 +3,7 @@ Algorithms of various types, ready for quick use.
 
 # **Algorithms** <h2>
 **Data structures**
-- [ ] Basic list
+- [x] List
   
 **Ordenation**
-- [ ] Sort
+- [x] Sort
